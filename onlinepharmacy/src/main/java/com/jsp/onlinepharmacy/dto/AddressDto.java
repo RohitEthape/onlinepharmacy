@@ -1,8 +1,12 @@
 package com.jsp.onlinepharmacy.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 public class AddressDto {
@@ -12,4 +16,6 @@ public class AddressDto {
     private String city;
     private String state;
     private long pincode;
+
+
 }
